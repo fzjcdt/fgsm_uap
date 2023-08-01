@@ -24,7 +24,7 @@ def fgsm_uap_test(seed=0):
 
     model = MyPreActResNet18(num_classes=200).to(device)
     opt = SGD(model.parameters(), lr=0.1, momentum=0.9, weight_decay=5e-4)
-    scheduler = MultiStepLR(opt, milestones=[100], gamma=0.1)
+    scheduler = MultiStepLR(opt, milestones=[105], gamma=0.1)
 
     fgsm_uap = FGSM_UAP(model, device=device, log_dir='./log_tiny_imagenet/', seed=seed)
     fgsm_uap.train(opt, scheduler, train_loader, test_loader, total_epoch=110,
