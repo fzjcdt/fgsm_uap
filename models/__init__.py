@@ -8,10 +8,7 @@ from .googlenet import *
 from .shufflenet import *
 from .shufflenetv2 import *
 from .resnet import *
-# from .my_resnet_old import *
 from .my_resnet import *
-from .my_resnet import *
-from .my_resnet2 import *
 from .resnext import *
 from .preact_resnet import *
 from .my_preact_resnet import *
