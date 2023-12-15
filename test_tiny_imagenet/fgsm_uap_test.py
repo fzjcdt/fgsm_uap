@@ -28,5 +28,4 @@ def fgsm_uap_test(seed=0):
 
     fgsm_uap = FGSM_UAP(model, device=device, log_dir='./log_tiny_imagenet/', seed=seed)
     fgsm_uap.train(opt, scheduler, train_loader, test_loader, total_epoch=110,
-                   label_smoothing=0.4, weight_average=True, tau=0.9995,
                    uap_num=300, class_num=200, image_shape=(3, 64, 64))

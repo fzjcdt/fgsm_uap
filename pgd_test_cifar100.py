@@ -13,7 +13,7 @@ from utils.set_seed import set_seed
 test_loader = torch.utils.data.DataLoader(datasets.CIFAR100('./data/cifar100', train=False, transform=test_transform),
                                           batch_size=100, shuffle=False, num_workers=4)
 
-device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 base_dir = './log_cifar100/'
 method_names = ['fgsm_uap']

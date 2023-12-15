@@ -22,5 +22,4 @@ def fgsm_uap_test(seed=0):
     opt = SGD(model.parameters(), lr=0.1, momentum=0.9, weight_decay=5e-4)
     scheduler = MultiStepLR(opt, milestones=[100, 105], gamma=0.1)
     fgsm_uap = FGSM_UAP(model, device=device, seed=seed)
-    fgsm_uap.train(opt, scheduler, train_loader, test_loader, total_epoch=110,
-                   label_smoothing=0.4, weight_average=True, tau=0.9995, uap_num=50, class_num=10)
+    fgsm_uap.train(opt, scheduler, train_loader, test_loader, total_epoch=110, uap_num=50, class_num=10)

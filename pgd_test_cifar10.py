@@ -17,6 +17,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 base_dir = './log_cifar10/'
 method_names = ['fgsm_uap']
+
 for method_name in method_names:
     method_path = os.path.join(base_dir, method_name)
 

@@ -12,7 +12,7 @@ from utils.set_seed import set_seed
 test_loader = torch.utils.data.DataLoader(datasets.CIFAR10('./data/cifar10', train=False, transform=test_transform),
                                           batch_size=10000, shuffle=False, num_workers=0)
 
-device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 X, y = [], []
 for i, (x, y_) in enumerate(test_loader):
     X = x.to(device)

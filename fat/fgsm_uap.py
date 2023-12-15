@@ -26,14 +26,14 @@ class FeatureLayer(nn.Module):
 
 class FGSM_UAP(ATBase):
 
-    def __init__(self, model, eps=8.0 / 255, log_dir='./log_cifar10/', name='fgsm_uap', device=None, seed=0):
+    def __init__(self, model, eps=8.0 / 255, log_dir='./log_cifar10/', name='fgsm_uap', device=None, seed=0, uap_eps=10/255.0):
         super(FGSM_UAP, self).__init__(model, eps=eps, log_dir=log_dir, name=name, device=device, seed=seed)
         self.momentum_decay = 0.3
         self.lamda = 10
-        self.uap_eps = 10.0 / 255
+        self.uap_eps = uap_eps
 
     def train(self, opt, scheduler, train_loader, test_loader, total_epoch=110, label_smoothing=0.4,
-              weight_average=True, tau=0.9995, uap_num=50, class_num=10, image_shape=(3, 32, 32), eval_start=80):
+              weight_average=True, tau=0.9995, uap_num=50, class_num=10, image_shape=(3, 32, 32), eval_start=90):
         if label_smoothing is not None:
             criterion = CrossEntropyLoss(label_smoothing=label_smoothing)
         else:
@@ -115,7 +115,7 @@ class FGSM_UAP(ATBase):
                 grad_norm = torch.norm(grad_x, p=1)
                 cur_grad = grad_x / grad_norm
                 for uap_idx in set(uap_max_idx.tolist()):
-                    momentum[uap_idx] = -cur_grad[uap_idx == uap_max_idx].mean(dim=0) + momentum[uap_idx] * 0.3
+                    momentum[uap_idx] = cur_grad[uap_idx == uap_max_idx].mean(dim=0) + momentum[uap_idx] * 0.3
                     uaps[uap_idx] = torch.clamp(
                         uaps[uap_idx] + self.uap_eps * torch.sign(momentum[uap_idx]), -self.uap_eps, self.uap_eps)
 
