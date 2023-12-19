@@ -1,0 +1,654 @@
+scheduler: MultiStepLR
+label smoothing: 0.4
+weight average: True, tau: 0.9995
+uap num: 300
+
+
+============ Epoch 0 ============
+Training time: 253.99
+Training loss: 5.2547
+Training accuracy: 0.0217
+
+============ Epoch 1 ============
+Training time: 255.14
+Training loss: 5.1527
+Training accuracy: 0.0490
+
+============ Epoch 2 ============
+Training time: 256.18
+Training loss: 5.0777
+Training accuracy: 0.0747
+
+============ Epoch 3 ============
+Training time: 256.69
+Training loss: 5.0189
+Training accuracy: 0.0955
+
+============ Epoch 4 ============
+Training time: 257.45
+Training loss: 4.9719
+Training accuracy: 0.1134
+
+============ Epoch 5 ============
+Training time: 257.41
+Training loss: 4.9361
+Training accuracy: 0.1265
+
+============ Epoch 6 ============
+Training time: 257.01
+Training loss: 4.9081
+Training accuracy: 0.1375
+
+============ Epoch 7 ============
+Training time: 257.79
+Training loss: 4.8849
+Training accuracy: 0.1458
+
+============ Epoch 8 ============
+Training time: 257.31
+Training loss: 4.8634
+Training accuracy: 0.1575
+
+============ Epoch 9 ============
+Training time: 257.27
+Training loss: 4.8449
+Training accuracy: 0.1625
+
+============ Epoch 10 ============
+Training time: 257.58
+Training loss: 4.8303
+Training accuracy: 0.1701
+
+============ Epoch 11 ============
+Training time: 258.01
+Training loss: 4.8169
+Training accuracy: 0.1744
+
+============ Epoch 12 ============
+Training time: 257.52
+Training loss: 4.8038
+Training accuracy: 0.1796
+
+============ Epoch 13 ============
+Training time: 257.67
+Training loss: 4.7928
+Training accuracy: 0.1856
+
+============ Epoch 14 ============
+Training time: 258.11
+Training loss: 4.7822
+Training accuracy: 0.1898
+
+============ Epoch 15 ============
+Training time: 258.87
+Training loss: 4.7713
+Training accuracy: 0.1922
+
+============ Epoch 16 ============
+Training time: 257.52
+Training loss: 4.7645
+Training accuracy: 0.1975
+
+============ Epoch 17 ============
+Training time: 257.48
+Training loss: 4.7574
+Training accuracy: 0.1998
+
+============ Epoch 18 ============
+Training time: 269.95
+Training loss: 4.7498
+Training accuracy: 0.2023
+
+============ Epoch 19 ============
+Training time: 257.57
+Training loss: 4.7437
+Training accuracy: 0.2042
+
+============ Epoch 20 ============
+Training time: 266.90
+Training loss: 4.7373
+Training accuracy: 0.2051
+
+============ Epoch 21 ============
+Training time: 270.36
+Training loss: 4.7324
+Training accuracy: 0.2086
+
+============ Epoch 22 ============
+Training time: 257.99
+Training loss: 4.7272
+Training accuracy: 0.2107
+
+============ Epoch 23 ============
+Training time: 257.63
+Training loss: 4.7239
+Training accuracy: 0.2123
+
+============ Epoch 24 ============
+Training time: 257.51
+Training loss: 4.7180
+Training accuracy: 0.2148
+
+============ Epoch 25 ============
+Training time: 257.95
+Training loss: 4.7156
+Training accuracy: 0.2148
+
+============ Epoch 26 ============
+Training time: 257.46
+Training loss: 4.7126
+Training accuracy: 0.2170
+
+============ Epoch 27 ============
+Training time: 257.22
+Training loss: 4.7100
+Training accuracy: 0.2180
+
+============ Epoch 28 ============
+Training time: 257.58
+Training loss: 4.7052
+Training accuracy: 0.2208
+
+============ Epoch 29 ============
+Training time: 257.67
+Training loss: 4.7042
+Training accuracy: 0.2190
+
+============ Epoch 30 ============
+Training time: 264.38
+Training loss: 4.6996
+Training accuracy: 0.2205
+
+============ Epoch 31 ============
+Training time: 268.14
+Training loss: 4.6984
+Training accuracy: 0.2221
+
+============ Epoch 32 ============
+Training time: 257.61
+Training loss: 4.6960
+Training accuracy: 0.2230
+
+============ Epoch 33 ============
+Training time: 276.84
+Training loss: 4.6926
+Training accuracy: 0.2243
+
+============ Epoch 34 ============
+Training time: 267.65
+Training loss: 4.6912
+Training accuracy: 0.2250
+
+============ Epoch 35 ============
+Training time: 257.73
+Training loss: 4.6896
+Training accuracy: 0.2259
+
+============ Epoch 36 ============
+Training time: 257.69
+Training loss: 4.6885
+Training accuracy: 0.2270
+
+============ Epoch 37 ============
+Training time: 257.58
+Training loss: 4.6859
+Training accuracy: 0.2260
+
+============ Epoch 38 ============
+Training time: 257.31
+Training loss: 4.6859
+Training accuracy: 0.2276
+
+============ Epoch 39 ============
+Training time: 256.68
+Training loss: 4.6830
+Training accuracy: 0.2281
+
+============ Epoch 40 ============
+Training time: 255.61
+Training loss: 4.6827
+Training accuracy: 0.2286
+
+============ Epoch 41 ============
+Training time: 255.73
+Training loss: 4.6800
+Training accuracy: 0.2285
+
+============ Epoch 42 ============
+Training time: 254.73
+Training loss: 4.6784
+Training accuracy: 0.2309
+
+============ Epoch 43 ============
+Training time: 255.33
+Training loss: 4.6777
+Training accuracy: 0.2307
+
+============ Epoch 44 ============
+Training time: 264.30
+Training loss: 4.6768
+Training accuracy: 0.2297
+
+============ Epoch 45 ============
+Training time: 259.51
+Training loss: 4.6748
+Training accuracy: 0.2323
+
+============ Epoch 46 ============
+Training time: 266.14
+Training loss: 4.6741
+Training accuracy: 0.2326
+
+============ Epoch 47 ============
+Training time: 263.57
+Training loss: 4.6729
+Training accuracy: 0.2335
+
+============ Epoch 48 ============
+Training time: 263.67
+Training loss: 4.6717
+Training accuracy: 0.2343
+
+============ Epoch 49 ============
+Training time: 263.67
+Training loss: 4.6704
+Training accuracy: 0.2326
+
+============ Epoch 50 ============
+Training time: 254.94
+Training loss: 4.6707
+Training accuracy: 0.2341
+
+============ Epoch 51 ============
+Training time: 270.75
+Training loss: 4.6704
+Training accuracy: 0.2331
+
+============ Epoch 52 ============
+Training time: 275.79
+Training loss: 4.6696
+Training accuracy: 0.2331
+
+============ Epoch 53 ============
+Training time: 255.10
+Training loss: 4.6670
+Training accuracy: 0.2344
+
+============ Epoch 54 ============
+Training time: 255.08
+Training loss: 4.6665
+Training accuracy: 0.2356
+
+============ Epoch 55 ============
+Training time: 254.80
+Training loss: 4.6639
+Training accuracy: 0.2350
+
+============ Epoch 56 ============
+Training time: 255.41
+Training loss: 4.6637
+Training accuracy: 0.2367
+
+============ Epoch 57 ============
+Training time: 255.41
+Training loss: 4.6637
+Training accuracy: 0.2348
+
+============ Epoch 58 ============
+Training time: 255.33
+Training loss: 4.6640
+Training accuracy: 0.2360
+
+============ Epoch 59 ============
+Training time: 254.82
+Training loss: 4.6604
+Training accuracy: 0.2375
+
+============ Epoch 60 ============
+Training time: 255.17
+Training loss: 4.6607
+Training accuracy: 0.2368
+
+============ Epoch 61 ============
+Training time: 255.26
+Training loss: 4.6613
+Training accuracy: 0.2378
+
+============ Epoch 62 ============
+Training time: 255.28
+Training loss: 4.6602
+Training accuracy: 0.2380
+
+============ Epoch 63 ============
+Training time: 255.31
+Training loss: 4.6597
+Training accuracy: 0.2377
+
+============ Epoch 64 ============
+Training time: 255.10
+Training loss: 4.6604
+Training accuracy: 0.2391
+
+============ Epoch 65 ============
+Training time: 254.76
+Training loss: 4.6604
+Training accuracy: 0.2366
+
+============ Epoch 66 ============
+Training time: 255.11
+Training loss: 4.6584
+Training accuracy: 0.2377
+
+============ Epoch 67 ============
+Training time: 255.24
+Training loss: 4.6584
+Training accuracy: 0.2384
+
+============ Epoch 68 ============
+Training time: 255.29
+Training loss: 4.6582
+Training accuracy: 0.2399
+
+============ Epoch 69 ============
+Training time: 255.21
+Training loss: 4.6562
+Training accuracy: 0.2404
+
+============ Epoch 70 ============
+Training time: 255.28
+Training loss: 4.6570
+Training accuracy: 0.2391
+
+============ Epoch 71 ============
+Training time: 255.20
+Training loss: 4.6575
+Training accuracy: 0.2380
+
+============ Epoch 72 ============
+Training time: 254.79
+Training loss: 4.6554
+Training accuracy: 0.2397
+
+============ Epoch 73 ============
+Training time: 255.26
+Training loss: 4.6556
+Training accuracy: 0.2395
+
+============ Epoch 74 ============
+Training time: 255.29
+Training loss: 4.6545
+Training accuracy: 0.2397
+
+============ Epoch 75 ============
+Training time: 255.39
+Training loss: 4.6534
+Training accuracy: 0.2406
+
+============ Epoch 76 ============
+Training time: 255.15
+Training loss: 4.6565
+Training accuracy: 0.2394
+
+============ Epoch 77 ============
+Training time: 255.20
+Training loss: 4.6531
+Training accuracy: 0.2413
+
+============ Epoch 78 ============
+Training time: 255.20
+Training loss: 4.6520
+Training accuracy: 0.2418
+
+============ Epoch 79 ============
+Training time: 255.35
+Training loss: 4.6526
+Training accuracy: 0.2400
+
+============ Epoch 80 ============
+Training time: 254.27
+Training loss: 4.6511
+Training accuracy: 0.2411
+
+============ Epoch 81 ============
+Training time: 255.29
+Training loss: 4.6514
+Training accuracy: 0.2415
+
+============ Epoch 82 ============
+Training time: 255.23
+Training loss: 4.6522
+Training accuracy: 0.2419
+
+============ Epoch 83 ============
+Training time: 255.20
+Training loss: 4.6504
+Training accuracy: 0.2413
+
+============ Epoch 84 ============
+Training time: 255.12
+Training loss: 4.6522
+Training accuracy: 0.2411
+
+============ Epoch 85 ============
+Training time: 255.61
+Training loss: 4.6502
+Training accuracy: 0.2426
+
+============ Epoch 86 ============
+Training time: 255.20
+Training loss: 4.6501
+Training accuracy: 0.2421
+
+============ Epoch 87 ============
+Training time: 255.30
+Training loss: 4.6502
+Training accuracy: 0.2403
+
+============ Epoch 88 ============
+Training time: 255.29
+Training loss: 4.6494
+Training accuracy: 0.2417
+
+============ Epoch 89 ============
+Training time: 254.96
+Training loss: 4.6496
+Training accuracy: 0.2427
+
+============ Epoch 90 ============
+Training time: 255.35
+Training loss: 4.6497
+Training accuracy: 0.2439
+Test time: 63.25
+Test accuracy: 0.4097
+FGSM accuracy: 0.2478
+PGD accuracy: 0.2400
+
+============ Epoch 91 ============
+Training time: 255.45
+Training loss: 4.6494
+Training accuracy: 0.2420
+Test time: 62.97
+Test accuracy: 0.4106
+FGSM accuracy: 0.2477
+PGD accuracy: 0.2400
+
+============ Epoch 92 ============
+Training time: 255.29
+Training loss: 4.6490
+Training accuracy: 0.2437
+Test time: 63.20
+Test accuracy: 0.4109
+FGSM accuracy: 0.2468
+PGD accuracy: 0.2391
+
+============ Epoch 93 ============
+Training time: 255.34
+Training loss: 4.6482
+Training accuracy: 0.2433
+Test time: 63.19
+Test accuracy: 0.4124
+FGSM accuracy: 0.2484
+PGD accuracy: 0.2414
+
+============ Epoch 94 ============
+Training time: 255.12
+Training loss: 4.6479
+Training accuracy: 0.2426
+Test time: 63.28
+Test accuracy: 0.4132
+FGSM accuracy: 0.2475
+PGD accuracy: 0.2416
+
+============ Epoch 95 ============
+Training time: 254.98
+Training loss: 4.6473
+Training accuracy: 0.2434
+Test time: 63.00
+Test accuracy: 0.4112
+FGSM accuracy: 0.2480
+PGD accuracy: 0.2417
+
+============ Epoch 96 ============
+Training time: 254.98
+Training loss: 4.6490
+Training accuracy: 0.2429
+Test time: 63.00
+Test accuracy: 0.4111
+FGSM accuracy: 0.2472
+PGD accuracy: 0.2408
+
+============ Epoch 97 ============
+Training time: 255.09
+Training loss: 4.6463
+Training accuracy: 0.2434
+Test time: 63.24
+Test accuracy: 0.4121
+FGSM accuracy: 0.2481
+PGD accuracy: 0.2409
+
+============ Epoch 98 ============
+Training time: 255.13
+Training loss: 4.6472
+Training accuracy: 0.2431
+Test time: 63.23
+Test accuracy: 0.4124
+FGSM accuracy: 0.2476
+PGD accuracy: 0.2405
+
+============ Epoch 99 ============
+Training time: 255.11
+Training loss: 4.6465
+Training accuracy: 0.2448
+Test time: 62.94
+Test accuracy: 0.4133
+FGSM accuracy: 0.2484
+PGD accuracy: 0.2407
+
+============ Epoch 100 ============
+Training time: 254.89
+Training loss: 4.6462
+Training accuracy: 0.2434
+Test time: 63.17
+Test accuracy: 0.4135
+FGSM accuracy: 0.2476
+PGD accuracy: 0.2377
+
+============ Epoch 101 ============
+Training time: 255.39
+Training loss: 4.6456
+Training accuracy: 0.2430
+Test time: 63.13
+Test accuracy: 0.4132
+FGSM accuracy: 0.2491
+PGD accuracy: 0.2391
+
+============ Epoch 102 ============
+Training time: 255.60
+Training loss: 4.6468
+Training accuracy: 0.2446
+Test time: 63.21
+Test accuracy: 0.4123
+FGSM accuracy: 0.2474
+PGD accuracy: 0.2393
+
+============ Epoch 103 ============
+Training time: 255.31
+Training loss: 4.6448
+Training accuracy: 0.2436
+Test time: 63.05
+Test accuracy: 0.4117
+FGSM accuracy: 0.2485
+PGD accuracy: 0.2400
+
+============ Epoch 104 ============
+Training time: 255.31
+Training loss: 4.6445
+Training accuracy: 0.2436
+Test time: 62.96
+Test accuracy: 0.4119
+FGSM accuracy: 0.2482
+PGD accuracy: 0.2409
+
+============ Epoch 105 ============
+Training time: 255.69
+Training loss: 4.4299
+Training accuracy: 0.3358
+Test time: 62.96
+Test accuracy: 0.4230
+FGSM accuracy: 0.2511
+PGD accuracy: 0.2439
+
+============ Epoch 106 ============
+Training time: 255.67
+Training loss: 4.3607
+Training accuracy: 0.3637
+Test time: 63.03
+Test accuracy: 0.4358
+FGSM accuracy: 0.2567
+PGD accuracy: 0.2481
+
+============ Epoch 107 ============
+Training time: 255.80
+Training loss: 4.3314
+Training accuracy: 0.3755
+Test time: 63.02
+Test accuracy: 0.4445
+FGSM accuracy: 0.2624
+PGD accuracy: 0.2521
+
+============ Epoch 108 ============
+Training time: 254.73
+Training loss: 4.3108
+Training accuracy: 0.3866
+Test time: 62.98
+Test accuracy: 0.4479
+FGSM accuracy: 0.2656
+PGD accuracy: 0.2552
+
+============ Epoch 109 ============
+Training time: 255.39
+Training loss: 4.2963
+Training accuracy: 0.3922
+Test time: 63.05
+Test accuracy: 0.4542
+FGSM accuracy: 0.2679
+PGD accuracy: 0.2568
+
+train_acc_list: 
+[0.02167, 0.04899, 0.07469, 0.09555, 0.1134, 0.12645, 0.13748, 0.14583, 0.1575, 0.16254, 0.1701, 0.17445, 0.17962, 0.18562, 0.1898, 0.19218, 0.19747, 0.1998, 0.20225, 0.20418, 0.20511, 0.20864, 0.21073, 0.2123, 0.2148, 0.21479, 0.21698, 0.21798, 0.2208, 0.21896, 0.22045, 0.22206, 0.223, 0.22427, 0.22504, 0.22594, 0.22704, 0.226, 0.22764, 0.22805, 0.22857, 0.22849, 0.23094, 0.23074, 0.2297, 0.23234, 0.23262, 0.23353, 0.23431, 0.23262, 0.23412, 0.23314, 0.23312, 0.23438, 0.23556, 0.23498, 0.23673, 0.23477, 0.23603, 0.23748, 0.23679, 0.2378, 0.23803, 0.23772, 0.23907, 0.2366, 0.23768, 0.23835, 0.23993, 0.24042, 0.23912, 0.23796, 0.23966, 0.23954, 0.23965, 0.24057, 0.23939, 0.24133, 0.24183, 0.24003, 0.24114, 0.2415, 0.24193, 0.24133, 0.24107, 0.24261, 0.24208, 0.24032, 0.24168, 0.24275, 0.24392, 0.242, 0.24367, 0.24327, 0.24261, 0.24338, 0.24292, 0.24336, 0.24314, 0.24484, 0.24339, 0.24305, 0.24462, 0.24363, 0.24361, 0.33578, 0.36374, 0.37553, 0.38664, 0.39219]
+
+test_acc_list: 
+[0.4097, 0.4106, 0.4109, 0.4124, 0.4132, 0.4112, 0.4111, 0.4121, 0.4124, 0.4133, 0.4135, 0.4132, 0.4123, 0.4117, 0.4119, 0.423, 0.4358, 0.4445, 0.4479, 0.4542]
+
+pgd_acc_list: 
+[0.24, 0.24, 0.2391, 0.2414, 0.2416, 0.2417, 0.2408, 0.2409, 0.2405, 0.2407, 0.2377, 0.2391, 0.2393, 0.24, 0.2409, 0.2439, 0.2481, 0.2521, 0.2552, 0.2568]
+
+fgsm_acc_list: 
+[0.2478, 0.2477, 0.2468, 0.2484, 0.2475, 0.248, 0.2472, 0.2481, 0.2476, 0.2484, 0.2476, 0.2491, 0.2474, 0.2485, 0.2482, 0.2511, 0.2567, 0.2624, 0.2656, 0.2679]
+
+total_training_time: 
+28327.052639722824
+
+total_test_time: 
+1261.8326797485352
+

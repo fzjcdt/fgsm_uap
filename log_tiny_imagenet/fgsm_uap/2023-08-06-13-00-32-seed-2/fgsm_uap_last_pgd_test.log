@@ -1,0 +1,9 @@
+clean accuracy: 45.42 %
+pgd-10 accuracy: 25.74 %
+pgd-20 accuracy: 25.56 %
+pgd-50 accuracy: 25.49 %
+total_training_time:
+28327.052639722824
+total_test_time:
+1261.8326797485352
+
