@@ -1,4 +1,4 @@
-Official implementation for our AAAI 2025 paper: **[Adversarial Initialization with Universal Adversarial Perturbation: A New Approach to Fast Adversarial Training](https://ojs.aaai.org/index.php/AAAI/article/view/30147/32032)**. 
+Official implementation for our AAAI 2024 paper: **[Adversarial Initialization with Universal Adversarial Perturbation: A New Approach to Fast Adversarial Training](https://ojs.aaai.org/index.php/AAAI/article/view/30147/32032)**. 
 
 
 ## Environment settings
