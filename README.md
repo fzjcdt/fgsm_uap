@@ -1,3 +1,5 @@
+> **Recommendation:** We suggest using the unified implementation in our open-source [FastAT Benchmark](https://github.com/fzjcdt/FastAT_Benchmark) for easier reproduction and fair comparison.
+
 Official implementation for our AAAI 2024 paper: **[Adversarial Initialization with Universal Adversarial Perturbation: A New Approach to Fast Adversarial Training](https://ojs.aaai.org/index.php/AAAI/article/view/30147/32032)**. 
 
 
